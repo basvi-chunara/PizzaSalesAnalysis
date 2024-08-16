@@ -33,7 +33,8 @@ The analysis was performed on the these table:
     SELECT COUNT(*) AS Total_orders FROM ORDERS;
  
  ### Q2 Find the total revenue generated from pizza sales
-    SELECT ROUND(SUM(O.QUANTITY*P.PRICE),1) AS Total_revenue FROM ORDER_DETAILS O JOIN PIZZAS P ON O.PIZZA_ID=P.PIZZA_ID;
+    SELECT ROUND(SUM(O.QUANTITY*P.PRICE),1) AS Total_revenue FROM 
+    ORDER_DETAILS O JOIN PIZZAS P ON O.PIZZA_ID=P.PIZZA_ID;
  
  ### Q3 Identify the highest priced pizza.
     SELECT PT.NAME, P.PRICE FROM 
