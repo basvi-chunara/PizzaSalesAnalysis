@@ -1,5 +1,5 @@
 # Pizza Sales Analysis Using SQL
-Overview
+## Overview
 This project focuses on analyzing pizza sales records to uncover trends in customer behavior and optimize sales strategies. Using SQL, I extracted actionable insights that improved sales strategy.
 
 ## Objectives
